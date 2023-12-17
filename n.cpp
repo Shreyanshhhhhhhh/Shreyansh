@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-//Shreyansh Singh
-//Shreyansh Singh
+
 int value(char r)
 {
     if (r == 'I')
@@ -22,31 +20,31 @@ int value(char r)
  
     return -1;
 }
- 
+
 int romanToDecimal(string& str)
 {
-    //Shreyansh Singh
+    
     int res = 0;
  
-    //Shreyansh Singh
+    
     for (int i = 0; i < str.length(); i++) {
-        //Shreyansh Singh
+        
         int s1 = value(str[i]);
 
-        if (i + 1 < str.length()) {  //Shreyansh Singh
-            //Shreyansh Singh
+        if (i + 1 < str.length()) {  
+            
             int s2 = value(str[i + 1]);
  
-            //Shreyansh Singh
+            
             if (s1 >= s2) {
-                //Shreyansh Singh
-                //Shreyansh Singh
-                //Shreyansh Singh
+                
+                
+                
                 res = res + s1;
             }
             else {
-                //Shreyansh Singh
-                //Shreyansh Singh
+                
+                
                 res = res + s2 - s1;
                 i++;
             }
@@ -58,11 +56,12 @@ int romanToDecimal(string& str)
     return res;
 }
  
-//Shreyansh Singh
+
 int main()
 {
-    //Shreyansh Singh
+    
     string str = "V";
+    
     cout << "Integer form of Roman Numeral is "
          << romanToDecimal(str) << endl;
  

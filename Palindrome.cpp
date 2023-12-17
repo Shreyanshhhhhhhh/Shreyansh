@@ -4,7 +4,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
     double j=x;
-    //Shreyansh Singh
+    
     double rev=0;
     if(x>=0){
     while (x!=0)

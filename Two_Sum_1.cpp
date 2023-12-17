@@ -1,11 +1,11 @@
-//Shreyansh Singh
+
 #include<iostream>   
 #include<vector>
 using namespace std;
 
 class Solution{
   public:
-  //Shreyansh Singh
+  
   vector<int> twoSum(vector<int> &nums,int target){
     vector<int> res;
 

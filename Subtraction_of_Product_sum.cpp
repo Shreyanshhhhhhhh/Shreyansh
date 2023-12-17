@@ -2,16 +2,16 @@
 using namespace std;
 
 class Solution {
-public:   //Shreyansh Singh
+public:   
     int subtractProductAndSum(int n) {
         int product=1;
         int digit;
         int add=0;
         while (n){
-            digit=n%10; //Shreyansh Singh
-            n=n/10; //Shreyansh Singh
-            product=product*digit; //Shreyansh Singh
-            add=add+digit; //Shreyansh Singh
+            digit=n%10; 
+            n=n/10; 
+            product=product*digit; 
+            add=add+digit; 
         }
         int result = product-add;
         return result;
