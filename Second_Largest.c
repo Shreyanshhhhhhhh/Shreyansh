@@ -15,7 +15,7 @@ int second_largest(int arr[],int n){
     for (int i = 0; i < n; i++){
         printf("%d ",arr[i]);
     }
-    printf("\nSecond Largest Element in the array is: %d",arr[n-2]);
+    printf("\nSecond Largest Element in the array is: %d ",arr[n-2]);
 
     return 0;
 }

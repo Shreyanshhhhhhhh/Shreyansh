@@ -19,7 +19,7 @@ public:
 };
 
 
-int main() {
+int main() { 
     Solution s1;
     int a = s1.subtractProductAndSum(234);
     cout<<a;

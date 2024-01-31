@@ -14,7 +14,7 @@ bool uniqueOccurrences(vector<int>& arr) {
 
     // Store unique frequencies in a separate vector
     vector<int> uniqueFreqs;
-    for (int freq : freqCount) {
+    for (int freq : freqCount) { 
         if (freq > 0) {
             if (find(uniqueFreqs.begin(), uniqueFreqs.end(), freq) != uniqueFreqs.end()) {
                 return false;  // Duplicate frequency found

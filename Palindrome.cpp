@@ -12,7 +12,7 @@ public:
         double rem=x%10;
         rev=rev*10+rem;
         x=x/10;
-    }
+    } 
 
     if(rev-j==0){
         return true;
